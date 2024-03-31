@@ -1,56 +1,23 @@
-# stable-swap
+About FloatSwap
 
-[![License](https://img.shields.io/crates/l/stable-swap-anchor)](https://github.com/saber-hq/stable-swap/blob/master/LICENSE)
-[![Build Status](https://img.shields.io/github/workflow/status/saber-hq/stable-swap/Program/master)](https://github.com/saber-hq/stable-swap/actions/workflows/program.yml?query=branch%3Amaster)
-[![Contributors](https://img.shields.io/github/contributors/saber-hq/stable-swap)](https://github.com/saber-hq/stable-swap/graphs/contributors)
+FloatSwap is revolutionizing decentralized finance (DeFi) on the Solana blockchain with its cutting-edge automated market maker (AMM) protocol. Designed to be the fastest AMM on Solana, FloatSwap enables users to seamlessly swap assets, provide liquidity for tokens, and engage in various DeFi activities with unparalleled speed and efficiency. Say goodbye to downtime and lag – FloatSwap ensures instant swaps, empowering users with a seamless trading experience.
 
-<div align="center">
-    <img src="/assets/banner.png" />
-</div>
+Our Mission
 
-<div align="center">
-    An automated market maker for mean-reverting trading pairs.
-</div>
+At FloatSwap, our mission is to empower users with fast, secure, and reliable DeFi solutions on the Solana blockchain. We are committed to providing a platform where users can transact with ease, access liquidity, and participate in DeFi activities without encountering the frustrations of downtime or sluggish performance.
 
-## Documentation
+Key Features
 
-Detailed information on how to build on Saber can be found on the [Saber developer documentation website](https://docs.saber.so/docs/developing/overview).
+    Lightning-Fast Swaps: FloatSwap leverages Solana's high-performance blockchain to offer lightning-fast asset swaps. Whether you're trading tokens or providing liquidity, transactions are executed instantly, ensuring you never miss out on market opportunities.
 
-Automatically generated documentation for Rust Crates is available below.
+    Effortless Liquidity Provision: Providing liquidity for tokens has never been easier. With FloatSwap, users can effortlessly contribute assets to liquidity pools, earning rewards while facilitating efficient token trading.
 
-## Rust Crates
+    No Downtime, No Lag: Say goodbye to frustrating delays and interruptions. FloatSwap operates seamlessly, free from downtime and lag, ensuring a smooth and uninterrupted trading experience for users.
 
-| Package              | Description                                                                          | Version                                                                                                         | Docs                                                                                           |
-| :------------------- | :----------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------- |
-| `stable-swap`        | Saber StableSwap program.                                                            | [![crates](https://img.shields.io/crates/v/stable-swap)](https://crates.io/crates/stable-swap)                  | [![Docs.rs](https://docs.rs/stable-swap/badge.svg)](https://docs.rs/stable-swap)               |
-| `stable-swap-anchor` | Anchor bindings for the StableSwap Rust client.                                      | [![Crates.io](https://img.shields.io/crates/v/stable-swap-anchor)](https://crates.io/crates/stable-swap-anchor) | [![Docs.rs](https://docs.rs/stable-swap-anchor/badge.svg)](https://docs.rs/stable-swap-anchor) |
-| `stable-swap-client` | StableSwap Rust client.                                                              | [![crates](https://img.shields.io/crates/v/stable-swap-client)](https://crates.io/crates/stable-swap-client)    | [![Docs.rs](https://docs.rs/stable-swap-client/badge.svg)](https://docs.rs/stable-swap-client) |
-| `stable-swap-fuzz`   | Fuzz tests for the Saber StableSwap program.                                         | [![crates](https://img.shields.io/crates/v/stable-swap-fuzz)](https://crates.io/crates/stable-swap-fuzz)        | [![Docs.rs](https://docs.rs/stable-swap-fuzz/badge.svg)](https://docs.rs/stable-swap-fuzz)     |
-| `stable-swap-math`   | Calculations for the StableSwap invariant                                            | [![crates](https://img.shields.io/crates/v/stable-swap-math)](https://crates.io/crates/stable-swap-math)        | [![Docs.rs](https://docs.rs/stable-swap-math/badge.svg)](https://docs.rs/stable-swap-math)     |
-| `stable-swap-sim`    | Simulations of the StableSwap invariant compared to Curve's reference implementation | [![crates](https://img.shields.io/crates/v/stable-swap-sim)](https://crates.io/crates/stable-swap-sim)          | [![Docs.rs](https://docs.rs/stable-swap-sim/badge.svg)](https://docs.rs/stable-swap-sim)       |
+    Secure and Reliable: Security is our top priority. FloatSwap employs robust security measures to safeguard user funds and ensure the integrity of the platform at all times. Users can trade with confidence, knowing their assets are protected.
 
-## JavaScript/Web3.js
+    User-Friendly Interface: We believe in making DeFi accessible to all. FloatSwap features an intuitive user interface, designed to provide a seamless experience for both novice and experienced traders alike.
 
-To use StableSwap with your frontend or Node.js project, use [the JavaScript SDK.](https://github.com/saber-hq/saber-common/tree/master/packages/stableswap-sdk)
+Join the FloatSwap Revolution
 
-## Audit
-
-Saber's [stable-swap-program](https://github.com/saber-hq/stable-swap/tree/master/stable-swap-program) has been audited by [Bramah Systems](https://www.bramah.systems/). View the audit report [here](https://github.com/saber-hq/stable-swap/blob/master/audit/bramah-systems.pdf).
-
-## Developing
-
-### Tests
-
-To run the tests, run:
-
-```
-./stable-swap-program/do.sh e2e-test
-```
-
-## Archive
-
-The original Saber StableSwap program can be found on the [archive branch](https://github.com/saber-hq/stable-swap/tree/archive).
-
-## License
-
-Saber StableSwap is licensed under the Apache License, Version 2.0.
+Whether you're a seasoned DeFi enthusiast or new to the world of decentralized finance, FloatSwap welcomes you to join the revolution. Experience the future of DeFi on Solana – fast, secure, and hassle-free. Get ready for instant swaps, effortless liquidity provision, and a trading experience like no other. FloatSwap – powering the future of decentralized finance on Solana.
